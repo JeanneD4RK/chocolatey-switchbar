@@ -1,8 +1,8 @@
 ﻿
 $ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://cdn-2.webcatalog.io/switchbar/Switchbar%20Setup%2016.9.1.exe'
-$url64      = 'https://cdn-2.webcatalog.io/switchbar/Switchbar%20Setup%2016.9.1.exe'
+$url        = 'https://cdn-2.webcatalog.io/switchbar/Switchbar%20Setup%2017.1.3.exe'
+$url64      = 'https://cdn-2.webcatalog.io/switchbar/Switchbar%20Setup%2017.1.3.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -13,9 +13,9 @@ $packageArgs = @{
 
   softwareName  = 'switchbar*'
 
-  checksum      = 'E96EDDA9D2679E74E849A06B26BC11C48FCA1B4E568B775AACECF846EEC94405'
+  checksum      = 'FF449A16C4DDC21C48D86C7D44273E9CBD1517E1958E11C46F9F3962A33102E8'
   checksumType  = 'sha256'
-  checksum64    = 'E96EDDA9D2679E74E849A06B26BC11C48FCA1B4E568B775AACECF846EEC94405'
+  checksum64    = 'FF449A16C4DDC21C48D86C7D44273E9CBD1517E1958E11C46F9F3962A33102E8'
   checksumType64= 'sha256'
 
   silentArgs   = '/S'
